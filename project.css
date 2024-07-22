@@ -1,0 +1,88 @@
+body{
+    background-image: url('abc1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header {
+    display: flex;
+}
+ul li {
+    display: inline;
+   
+}
+
+ul li a{
+    color: #ffffff;
+    padding: 28px;
+    text-decoration: none;
+    font-size: large;
+
+}
+a:hover{
+    color: rgb(248, 150, 150);
+}
+.links{
+    margin: auto;
+
+   
+}
+.callus{
+    margin-left: auto;
+    margin-top: 22px;
+}
+.btn1{
+   margin-right: 12px;
+   padding: 5px;
+   border-radius: 10px;
+   background-color: transparent;
+   color: white;
+   border-color: wheat;
+}
+.btn1:hover{
+    color: rgb(248, 150, 150);
+}
+.btn2{
+    margin-right: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: wheat;
+}
+.btn2:hover{
+    color: rgb(248, 150, 150);
+}
+.forms label{
+    color: white;
+    margin: auto;
+    padding: 12px;
+    font-size: large;
+}
+.formsinner{
+    display: flex;
+    width: 355px;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+}
+.formsinner input{
+    padding: 3px;
+    margin: 11px;
+    border-radius: 12px;
+    font-size: large;
+}
+.forms{
+    width: 455px;
+    border: 2px solid white;
+    position: relative;
+    left: 55px;
+    top: 55px;
+}
+
+input:nth-last-child(1){
+    background-color: transparent;
+    color: #ffffff;
+    border-color: wheat;
+}
